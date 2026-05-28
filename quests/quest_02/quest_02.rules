@@ -1,0 +1,8 @@
+// https://mng.quest/quest/2/unary-even-odd
+
+// Alternate between EVEN (represented by the state INIT to save a rule) and
+// ODD states until an empty cell is found. 
+INIT | ODD _ R
+ODD | INIT _ R
+ODD _ HALT O R
+INIT _ HALT E R

@@ -1,0 +1,14 @@
+// https://mng.quest/quest/6/unary-subtraction
+
+// For each '|' found after '-'...
+INIT | INIT | R
+INIT - INIT - R
+INIT _ FOUND_EMPTY _ L
+
+// ... remove a '|' before the '-'
+FOUND_EMPTY - HALT _ L
+FOUND_EMPTY | SUB _ L
+SUB | SUB | L
+SUB - SUB - L
+SUB _ SUB_RIGHT _ R
+SUB_RIGHT | INIT _ R

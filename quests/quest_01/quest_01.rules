@@ -1,0 +1,7 @@
+// https://mng.quest/quest/1/unary-addition
+
+// Replace the '|' at first place by an empty
+// value and the '+' by a '|'
+INIT | FIND _ R
+FIND | FIND | R
+FIND + HALT | R

@@ -1,0 +1,11 @@
+// https://mng.quest/quest/3/binary-increment
+
+// Move right until blank, then step left once to last bit
+INIT 0 INIT 0 R
+INIT 1 INIT 1 R
+INIT _ INC _ L
+
+// Increment carry leftwards
+INC 1 INC 0 L
+INC 0 HALT 1 R
+INC _ HALT 1 R

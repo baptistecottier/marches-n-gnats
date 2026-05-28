@@ -79,11 +79,13 @@ def _format_tape_comparison(result: str, expected: str, context: int = 20) -> tu
             segment_text = segment_text + "..."
         return segment_text
 
-    result_segment = result
-    expected_segment = expected
+    result_segment = segment(result)
+    expected_segment = segment(expected)
 
+    marker_offset = len("...") if start > 0 else 0
+    marker = " " * (marker_offset + diff_index - start) + "^"
 
-    return result_segment, expected_segment
+    return result_segment, expected_segment, marker
 
 
 class InvalidTransitionError(Exception):

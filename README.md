@@ -13,7 +13,7 @@ All quests in the repository:
 | 7 | Letter Mark | [✅](./quests/quest_07/quest_07.rules) | 28 | Fibonacci Sequence | ❌ |
 | 8 | Text Mirror | ❌ | 29 | Advent of Logic Mill | ❌ |
 | 9 | Unary Comparison | ❌ | 30 | Palindrome | ❌ |
-| 10 | Lines Count | ❌ | 31 | Unary to Decimal | ❌ |
+| 10 | Lines Count | [✅](./quests/quest_10/quest_10.rules)  | 31 | Unary to Decimal | ❌ |
 | 11 | Decimal Increment | ❌ | 32 | Self-Counting | ❌ |
 | 12 | Decimal Addition | ❌ | 33 | Valid Parentheses | ❌ |
 | 13 | Unary Array Sort | ❌ | 34 | Logic Gates | ❌ |

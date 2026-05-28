@@ -1,0 +1,56 @@
+// https://mng.quest/quest/10/lines-count
+
+// Replace all values by '@' but '+'
+INIT a INIT @ R
+INIT b INIT @ R
+INIT c INIT @ R
+INIT d INIT @ R
+INIT e INIT @ R
+INIT f INIT @ R
+INIT g INIT @ R
+INIT h INIT @ R
+INIT i INIT @ R
+INIT j INIT @ R
+INIT k INIT @ R
+INIT l INIT @ R
+INIT m INIT @ R
+INIT n INIT @ R
+INIT o INIT @ R
+INIT p INIT @ R
+INIT q INIT @ R
+INIT r INIT @ R
+INIT s INIT @ R
+INIT t INIT @ R
+INIT u INIT @ R
+INIT v INIT @ R
+INIT w INIT @ R
+INIT x INIT @ R
+INIT y INIT @ R
+INIT z INIT @ R
+INIT ä INIT @ R
+INIT ö INIT @ R
+INIT ü INIT @ R
+INIT õ INIT @ R
+INIT - INIT @ R
+INIT @ INIT @ R
+INIT | INIT | R
+INIT + INIT + R
+
+// If an empty space if found, test if this is the end of the tape
+INIT _ TEST_HALT _ L
+TEST_HALT | HALT | R
+TEST_HALT @ CLEAN _ L
+
+// Then CLEAN the tape by removing all '@' until a '+' is met or end of tape.
+// When an empty space is met, the value '_' is replaced by '|' as there is one
+// more line than number of '+'
+CLEAN @ CLEAN _ L
+CLEAN _ HALT | L
+CLEAN | CLEAN | R
+CLEAN + ADD _ L
+
+// Look for the next empty space to ADD a '|'
+ADD @ ADD @ L
+ADD + ADD + L
+ADD | ADD | L
+ADD _ INIT | R

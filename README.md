@@ -14,7 +14,7 @@ All quests in the repository:
 | 8 | Text Mirror | ❌ | 29 | Advent of Logic Mill | ❌ |
 | 9 | Unary Comparison | ❌ | 30 | Palindrome | ❌ |
 | 10 | Lines Count | [✅](./quests/quest_10/quest_10.rules)  | 31 | Unary to Decimal | ❌ |
-| 11 | Decimal Increment | ❌ | 32 | Self-Counting | ❌ |
+| 11 | Decimal Increment | [✅](./quests/quest_11/quest_11.rules) | 32 | Self-Counting | ❌ |
 | 12 | Decimal Addition | ❌ | 33 | Valid Parentheses | ❌ |
 | 13 | Unary Array Sort | ❌ | 34 | Logic Gates | ❌ |
 | 14 | Binary to Decimal | ❌ | 35 | Unary Deduplication | ❌ |

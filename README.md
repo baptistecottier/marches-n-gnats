@@ -11,7 +11,7 @@ All quests in the repository:
 | 5 | Find Element in Unary Array   | [✅](./quests/quest_05/quest_05.rules)| 393 705   | #26  |
 | 6 | Unary Subtraction             | [✅](./quests/quest_06/quest_06.rules)| 416 758   | #37
 | 7 | Letter Mark                   | [✅](./quests/quest_07/quest_07.rules)| 83 776    | #23  | Rules pruned
-| 8 | Text Mirror                   | ❌                                    |
+| 8 | Text Mirror                   | [✅](./quests/quest_08/quest_08.rules)| 69 328    | #15
 | 9 | Unary Comparison              | ❌                                    |
 | 10| Lines Count                   | [✅](./quests/quest_10/quest_10.rules)| 848 715   | #29  |
 | 11| Decimal Increment             | [✅](./quests/quest_11/quest_11.rules)| 444       | #6   |

@@ -12,7 +12,7 @@ def send(quest_id: int) -> None:
 
     url = f"https://mng.quest/api/quest/{quest_id}/solve"
     quest_id_str = str(quest_id).zfill(2)
-    rules_path = f"./quests/quest_{quest_id_str}/quest_{quest_id_str}.rules"
+    rules_path = f"./quests/quest_{quest_id_str}.rules"
     with open(rules_path, "r", encoding="utf-8") as rules_file:
         rules = rules_file.read()
 

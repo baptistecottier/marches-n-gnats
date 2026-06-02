@@ -1,11 +1,9 @@
-// https://mng.quest/quest/7/letter-mark
 
 INIT a INIT a R
 INIT b INIT b R
 INIT c INIT c R
 INIT d INIT d R
 INIT e INIT e R
-INIT f INIT f R
 INIT g INIT g R
 INIT h INIT h R
 INIT i INIT i R
@@ -16,31 +14,22 @@ INIT m INIT m R
 INIT n INIT n R
 INIT o INIT o R
 INIT p INIT p R
-INIT q INIT q R
 INIT r INIT r R
 INIT s INIT s R
 INIT t INIT t R
 INIT u INIT u R
-INIT v INIT v R
 INIT w INIT w R
-INIT x INIT x R
-INIT y INIT y R
-INIT z INIT z R
 INIT ä INIT ä R
 INIT ö INIT ö R
 INIT õ INIT õ R
 INIT ü INIT ü R
 INIT - INIT - R
-INIT | INIT | R
-INIT [ INIT [ R
-INIT ] INIT ] R
 INIT _ REWIND | L
 
 READ a MOVE_a _ R
 READ b MOVE_b _ R
 READ d MOVE_d _ R
 READ e MOVE_e _ R
-READ f MOVE_f _ R
 READ g MOVE_g _ R
 READ h MOVE_h _ R
 READ i MOVE_i _ R
@@ -51,15 +40,10 @@ READ m MOVE_m _ R
 READ n MOVE_n _ R
 READ o MOVE_o _ R
 READ p MOVE_p _ R
-READ q MOVE_q _ R
 READ r MOVE_r _ R
 READ s MOVE_s _ R
 READ t MOVE_t _ R
 READ u MOVE_u _ R
-READ v MOVE_v _ R
-READ x MOVE_x _ R
-READ y MOVE_y _ R
-READ z MOVE_z _ R
 READ ä MOVE_ä _ R
 READ ö MOVE_ö _ R
 READ õ MOVE_õ _ R
@@ -70,87 +54,21 @@ READ w MOVE_[ _ R
 
 READ c CHECK_CH _ R
 CHECK_CH h MOVE_( _ R
-CHECK_CH a MOVE_c a R
-CHECK_CH b MOVE_c b R
-CHECK_CH c MOVE_c c R
-CHECK_CH d MOVE_c d R
-CHECK_CH e MOVE_c e R
-CHECK_CH f MOVE_c f R
-CHECK_CH g MOVE_c g R
-CHECK_CH i MOVE_c i R
-CHECK_CH j MOVE_c j R
-CHECK_CH k MOVE_c k R
-CHECK_CH l MOVE_c l R
-CHECK_CH m MOVE_c m R
-CHECK_CH n MOVE_c n R
-CHECK_CH o MOVE_c o R
-CHECK_CH p MOVE_c p R
-CHECK_CH q MOVE_c q R
-CHECK_CH r MOVE_c r R
-CHECK_CH s MOVE_c s R
-CHECK_CH t MOVE_c t R
-CHECK_CH u MOVE_c u R
-CHECK_CH v MOVE_c v R
-CHECK_CH w MOVE_c w R
-CHECK_CH x MOVE_c x R
-CHECK_CH y MOVE_c y R
-CHECK_CH z MOVE_c z R
-CHECK_CH ä MOVE_c ä R
-CHECK_CH ö MOVE_c ö R
-CHECK_CH õ MOVE_c õ R
-CHECK_CH ü MOVE_c ü R
-CHECK_CH | MOVE_c | R
-CHECK_CH [ MOVE_c [ R
-CHECK_CH ] MOVE_c ] R
-CHECK_CH _ MOVE_c _ R
-CHECK_CH - MOVE_c - R
 
 
-MOVE_( a MOVE_( a R
-MOVE_( b MOVE_( b R
-MOVE_( c MOVE_( c R
-MOVE_( d MOVE_( d R
-MOVE_( e MOVE_( e R
-MOVE_( f MOVE_( f R
-MOVE_( g MOVE_( g R
-MOVE_( h MOVE_( h R
 MOVE_( i MOVE_( i R
-MOVE_( j MOVE_( j R
-MOVE_( k MOVE_( k R
-MOVE_( l MOVE_( l R
 MOVE_( m MOVE_( m R
-MOVE_( n MOVE_( n R
-MOVE_( o MOVE_( o R
-MOVE_( p MOVE_( p R
-MOVE_( q MOVE_( q R
 MOVE_( r MOVE_( r R
-MOVE_( s MOVE_( s R
-MOVE_( t MOVE_( t R
-MOVE_( u MOVE_( u R
-MOVE_( v MOVE_( v R
-MOVE_( w MOVE_( w R
-MOVE_( x MOVE_( x R
-MOVE_( y MOVE_( y R
-MOVE_( z MOVE_( z R
-MOVE_( ä MOVE_( ä R
-MOVE_( ö MOVE_( ö R
-MOVE_( õ MOVE_( õ R
-MOVE_( ü MOVE_( ü R
-MOVE_( - MOVE_( - R
 MOVE_( _ MOVE_Ch [ R
 MOVE_( | MOVE_( | R
-MOVE_( [ MOVE_( [ R
-MOVE_( ] MOVE_( ] R
 MOVE_Ch _ MOVE_cH c R
 MOVE_cH _ MOVE_) h R
 MOVE_) _ REWIND ] L
 
 MOVE_[ a MOVE_[ a R
 MOVE_[ b MOVE_[ b R
-MOVE_[ c MOVE_[ c R
 MOVE_[ d MOVE_[ d R
 MOVE_[ e MOVE_[ e R
-MOVE_[ f MOVE_[ f R
 MOVE_[ g MOVE_[ g R
 MOVE_[ h MOVE_[ h R
 MOVE_[ i MOVE_[ i R
@@ -161,16 +79,11 @@ MOVE_[ m MOVE_[ m R
 MOVE_[ n MOVE_[ n R
 MOVE_[ o MOVE_[ o R
 MOVE_[ p MOVE_[ p R
-MOVE_[ q MOVE_[ q R
 MOVE_[ r MOVE_[ r R
 MOVE_[ s MOVE_[ s R
 MOVE_[ t MOVE_[ t R
 MOVE_[ u MOVE_[ u R
-MOVE_[ v MOVE_[ v R
 MOVE_[ w MOVE_[ w R
-MOVE_[ x MOVE_[ x R
-MOVE_[ y MOVE_[ y R
-MOVE_[ z MOVE_[ z R
 MOVE_[ ä MOVE_[ ä R
 MOVE_[ ö MOVE_[ ö R
 MOVE_[ õ MOVE_[ õ R
@@ -185,10 +98,8 @@ MOVE_] _ REWIND ] L
 
 MOVE_a a MOVE_a a R
 MOVE_a b MOVE_a b R
-MOVE_a c MOVE_a c R
 MOVE_a d MOVE_a d R
 MOVE_a e MOVE_a e R
-MOVE_a f MOVE_a f R
 MOVE_a g MOVE_a g R
 MOVE_a h MOVE_a h R
 MOVE_a i MOVE_a i R
@@ -199,15 +110,10 @@ MOVE_a m MOVE_a m R
 MOVE_a n MOVE_a n R
 MOVE_a o MOVE_a o R
 MOVE_a p MOVE_a p R
-MOVE_a q MOVE_a q R
 MOVE_a r MOVE_a r R
 MOVE_a s MOVE_a s R
 MOVE_a t MOVE_a t R
 MOVE_a u MOVE_a u R
-MOVE_a v MOVE_a v R
-MOVE_a x MOVE_a x R
-MOVE_a y MOVE_a y R
-MOVE_a z MOVE_a z R
 MOVE_a ä MOVE_a ä R
 MOVE_a ö MOVE_a ö R
 MOVE_a õ MOVE_a õ R
@@ -220,11 +126,8 @@ MOVE_a | MOVE_a | R
 MOVE_a _ REWIND a L
 
 MOVE_b a MOVE_b a R
-MOVE_b b MOVE_b b R
-MOVE_b c MOVE_b c R
 MOVE_b d MOVE_b d R
 MOVE_b e MOVE_b e R
-MOVE_b f MOVE_b f R
 MOVE_b g MOVE_b g R
 MOVE_b h MOVE_b h R
 MOVE_b i MOVE_b i R
@@ -235,7 +138,6 @@ MOVE_b m MOVE_b m R
 MOVE_b n MOVE_b n R
 MOVE_b o MOVE_b o R
 MOVE_b p MOVE_b p R
-MOVE_b q MOVE_b q R
 MOVE_b r MOVE_b r R
 MOVE_b s MOVE_b s R
 MOVE_b t MOVE_b t R
@@ -243,9 +145,7 @@ MOVE_b u MOVE_b u R
 MOVE_b v MOVE_b v R
 MOVE_b x MOVE_b x R
 MOVE_b y MOVE_b y R
-MOVE_b z MOVE_b z R
 MOVE_b ä MOVE_b ä R
-MOVE_b ö MOVE_b ö R
 MOVE_b õ MOVE_b õ R
 MOVE_b ü MOVE_b ü R
 MOVE_b - MOVE_b - R
@@ -255,9 +155,6 @@ MOVE_b ] MOVE_b ] R
 MOVE_b | MOVE_b | R
 MOVE_b _ REWIND b L
 
-MOVE_c a MOVE_c a R
-MOVE_c b MOVE_c b R
-MOVE_c c MOVE_c c R
 MOVE_c d MOVE_c d R
 MOVE_c e MOVE_c e R
 MOVE_c f MOVE_c f R
@@ -279,15 +176,9 @@ MOVE_c u MOVE_c u R
 MOVE_c v MOVE_c v R
 MOVE_c x MOVE_c x R
 MOVE_c y MOVE_c y R
-MOVE_c z MOVE_c z R
-MOVE_c ä MOVE_c ä R
 MOVE_c ö MOVE_c ö R
 MOVE_c õ MOVE_c õ R
 MOVE_c ü MOVE_c ü R
-MOVE_c - MOVE_c - R
-MOVE_c w MOVE_c w R
-MOVE_c [ MOVE_c [ R
-MOVE_c ] MOVE_c ] R
 MOVE_c | MOVE_c | R
 MOVE_c _ REWIND c L
 
@@ -307,14 +198,10 @@ MOVE_d m MOVE_d m R
 MOVE_d n MOVE_d n R
 MOVE_d o MOVE_d o R
 MOVE_d p MOVE_d p R
-MOVE_d q MOVE_d q R
 MOVE_d r MOVE_d r R
 MOVE_d s MOVE_d s R
 MOVE_d t MOVE_d t R
 MOVE_d u MOVE_d u R
-MOVE_d v MOVE_d v R
-MOVE_d x MOVE_d x R
-MOVE_d y MOVE_d y R
 MOVE_d z MOVE_d z R
 MOVE_d ä MOVE_d ä R
 MOVE_d ö MOVE_d ö R
@@ -332,7 +219,6 @@ MOVE_e b MOVE_e b R
 MOVE_e c MOVE_e c R
 MOVE_e d MOVE_e d R
 MOVE_e e MOVE_e e R
-MOVE_e f MOVE_e f R
 MOVE_e g MOVE_e g R
 MOVE_e h MOVE_e h R
 MOVE_e i MOVE_e i R
@@ -365,38 +251,27 @@ MOVE_e _ REWIND e L
 
 MOVE_f a MOVE_f a R
 MOVE_f b MOVE_f b R
-MOVE_f c MOVE_f c R
 MOVE_f d MOVE_f d R
-MOVE_f e MOVE_f e R
 MOVE_f f MOVE_f f R
 MOVE_f g MOVE_f g R
 MOVE_f h MOVE_f h R
 MOVE_f i MOVE_f i R
 MOVE_f j MOVE_f j R
-MOVE_f k MOVE_f k R
 MOVE_f l MOVE_f l R
-MOVE_f m MOVE_f m R
 MOVE_f n MOVE_f n R
 MOVE_f o MOVE_f o R
 MOVE_f p MOVE_f p R
 MOVE_f q MOVE_f q R
-MOVE_f r MOVE_f r R
-MOVE_f s MOVE_f s R
 MOVE_f t MOVE_f t R
 MOVE_f u MOVE_f u R
 MOVE_f v MOVE_f v R
 MOVE_f x MOVE_f x R
 MOVE_f y MOVE_f y R
-MOVE_f z MOVE_f z R
 MOVE_f ä MOVE_f ä R
 MOVE_f ö MOVE_f ö R
 MOVE_f õ MOVE_f õ R
 MOVE_f ü MOVE_f ü R
-MOVE_f - MOVE_f - R
 MOVE_f w MOVE_f w R
-MOVE_f [ MOVE_f [ R
-MOVE_f ] MOVE_f ] R
-MOVE_f | MOVE_f | R
 MOVE_f _ REWIND f L
 
 MOVE_g a MOVE_g a R
@@ -421,8 +296,6 @@ MOVE_g s MOVE_g s R
 MOVE_g t MOVE_g t R
 MOVE_g u MOVE_g u R
 MOVE_g v MOVE_g v R
-MOVE_g x MOVE_g x R
-MOVE_g y MOVE_g y R
 MOVE_g z MOVE_g z R
 MOVE_g ä MOVE_g ä R
 MOVE_g ö MOVE_g ö R
@@ -437,7 +310,6 @@ MOVE_g _ REWIND g L
 
 MOVE_h a MOVE_h a R
 MOVE_h b MOVE_h b R
-MOVE_h c MOVE_h c R
 MOVE_h d MOVE_h d R
 MOVE_h e MOVE_h e R
 MOVE_h f MOVE_h f R
@@ -458,8 +330,6 @@ MOVE_h t MOVE_h t R
 MOVE_h u MOVE_h u R
 MOVE_h v MOVE_h v R
 MOVE_h x MOVE_h x R
-MOVE_h y MOVE_h y R
-MOVE_h z MOVE_h z R
 MOVE_h ä MOVE_h ä R
 MOVE_h ö MOVE_h ö R
 MOVE_h õ MOVE_h õ R
@@ -492,7 +362,6 @@ MOVE_i r MOVE_i r R
 MOVE_i s MOVE_i s R
 MOVE_i t MOVE_i t R
 MOVE_i u MOVE_i u R
-MOVE_i v MOVE_i v R
 MOVE_i x MOVE_i x R
 MOVE_i y MOVE_i y R
 MOVE_i z MOVE_i z R
@@ -509,7 +378,6 @@ MOVE_i _ REWIND i L
 
 MOVE_j a MOVE_j a R
 MOVE_j b MOVE_j b R
-MOVE_j c MOVE_j c R
 MOVE_j d MOVE_j d R
 MOVE_j e MOVE_j e R
 MOVE_j f MOVE_j f R
@@ -523,14 +391,12 @@ MOVE_j m MOVE_j m R
 MOVE_j n MOVE_j n R
 MOVE_j o MOVE_j o R
 MOVE_j p MOVE_j p R
-MOVE_j q MOVE_j q R
 MOVE_j r MOVE_j r R
 MOVE_j s MOVE_j s R
 MOVE_j t MOVE_j t R
 MOVE_j u MOVE_j u R
 MOVE_j v MOVE_j v R
 MOVE_j x MOVE_j x R
-MOVE_j y MOVE_j y R
 MOVE_j z MOVE_j z R
 MOVE_j ä MOVE_j ä R
 MOVE_j ö MOVE_j ö R
@@ -545,10 +411,8 @@ MOVE_j _ REWIND j L
 
 MOVE_k a MOVE_k a R
 MOVE_k b MOVE_k b R
-MOVE_k c MOVE_k c R
 MOVE_k d MOVE_k d R
 MOVE_k e MOVE_k e R
-MOVE_k f MOVE_k f R
 MOVE_k g MOVE_k g R
 MOVE_k h MOVE_k h R
 MOVE_k i MOVE_k i R
@@ -600,9 +464,6 @@ MOVE_l r MOVE_l r R
 MOVE_l s MOVE_l s R
 MOVE_l t MOVE_l t R
 MOVE_l u MOVE_l u R
-MOVE_l v MOVE_l v R
-MOVE_l x MOVE_l x R
-MOVE_l y MOVE_l y R
 MOVE_l z MOVE_l z R
 MOVE_l ä MOVE_l ä R
 MOVE_l ö MOVE_l ö R
@@ -672,10 +533,8 @@ MOVE_n r MOVE_n r R
 MOVE_n s MOVE_n s R
 MOVE_n t MOVE_n t R
 MOVE_n u MOVE_n u R
-MOVE_n v MOVE_n v R
 MOVE_n x MOVE_n x R
 MOVE_n y MOVE_n y R
-MOVE_n z MOVE_n z R
 MOVE_n ä MOVE_n ä R
 MOVE_n ö MOVE_n ö R
 MOVE_n õ MOVE_n õ R
@@ -692,7 +551,6 @@ MOVE_o b MOVE_o b R
 MOVE_o c MOVE_o c R
 MOVE_o d MOVE_o d R
 MOVE_o e MOVE_o e R
-MOVE_o f MOVE_o f R
 MOVE_o g MOVE_o g R
 MOVE_o h MOVE_o h R
 MOVE_o i MOVE_o i R
@@ -709,8 +567,6 @@ MOVE_o s MOVE_o s R
 MOVE_o t MOVE_o t R
 MOVE_o u MOVE_o u R
 MOVE_o v MOVE_o v R
-MOVE_o x MOVE_o x R
-MOVE_o y MOVE_o y R
 MOVE_o z MOVE_o z R
 MOVE_o ä MOVE_o ä R
 MOVE_o ö MOVE_o ö R
@@ -744,9 +600,6 @@ MOVE_p r MOVE_p r R
 MOVE_p s MOVE_p s R
 MOVE_p t MOVE_p t R
 MOVE_p u MOVE_p u R
-MOVE_p v MOVE_p v R
-MOVE_p x MOVE_p x R
-MOVE_p y MOVE_p y R
 MOVE_p z MOVE_p z R
 MOVE_p ä MOVE_p ä R
 MOVE_p ö MOVE_p ö R
@@ -759,9 +612,7 @@ MOVE_p ] MOVE_p ] R
 MOVE_p | MOVE_p | R
 MOVE_p _ REWIND p L
 
-MOVE_q a MOVE_q a R
 MOVE_q b MOVE_q b R
-MOVE_q c MOVE_q c R
 MOVE_q d MOVE_q d R
 MOVE_q e MOVE_q e R
 MOVE_q f MOVE_q f R
@@ -776,20 +627,15 @@ MOVE_q n MOVE_q n R
 MOVE_q o MOVE_q o R
 MOVE_q p MOVE_q p R
 MOVE_q q MOVE_q q R
-MOVE_q r MOVE_q r R
 MOVE_q s MOVE_q s R
 MOVE_q t MOVE_q t R
 MOVE_q u MOVE_q u R
-MOVE_q v MOVE_q v R
 MOVE_q x MOVE_q x R
 MOVE_q y MOVE_q y R
 MOVE_q z MOVE_q z R
-MOVE_q ä MOVE_q ä R
 MOVE_q ö MOVE_q ö R
 MOVE_q õ MOVE_q õ R
 MOVE_q ü MOVE_q ü R
-MOVE_q - MOVE_q - R
-MOVE_q w MOVE_q w R
 MOVE_q [ MOVE_q [ R
 MOVE_q ] MOVE_q ] R
 MOVE_q | MOVE_q | R
@@ -833,7 +679,6 @@ MOVE_r _ REWIND r L
 
 MOVE_s a MOVE_s a R
 MOVE_s b MOVE_s b R
-MOVE_s c MOVE_s c R
 MOVE_s d MOVE_s d R
 MOVE_s e MOVE_s e R
 MOVE_s f MOVE_s f R
@@ -853,9 +698,7 @@ MOVE_s s MOVE_s s R
 MOVE_s t MOVE_s t R
 MOVE_s u MOVE_s u R
 MOVE_s v MOVE_s v R
-MOVE_s x MOVE_s x R
 MOVE_s y MOVE_s y R
-MOVE_s z MOVE_s z R
 MOVE_s ä MOVE_s ä R
 MOVE_s ö MOVE_s ö R
 MOVE_s õ MOVE_s õ R
@@ -890,7 +733,6 @@ MOVE_t t MOVE_t t R
 MOVE_t u MOVE_t u R
 MOVE_t v MOVE_t v R
 MOVE_t x MOVE_t x R
-MOVE_t y MOVE_t y R
 MOVE_t z MOVE_t z R
 MOVE_t ä MOVE_t ä R
 MOVE_t ö MOVE_t ö R
@@ -925,9 +767,7 @@ MOVE_u s MOVE_u s R
 MOVE_u t MOVE_u t R
 MOVE_u u MOVE_u u R
 MOVE_u v MOVE_u v R
-MOVE_u x MOVE_u x R
 MOVE_u y MOVE_u y R
-MOVE_u z MOVE_u z R
 MOVE_u ä MOVE_u ä R
 MOVE_u ö MOVE_u ö R
 MOVE_u õ MOVE_u õ R
@@ -939,24 +779,19 @@ MOVE_u ] MOVE_u ] R
 MOVE_u | MOVE_u | R
 MOVE_u _ REWIND u L
 
-MOVE_v a MOVE_v a R
 MOVE_v b MOVE_v b R
 MOVE_v c MOVE_v c R
 MOVE_v d MOVE_v d R
 MOVE_v e MOVE_v e R
 MOVE_v f MOVE_v f R
-MOVE_v g MOVE_v g R
 MOVE_v h MOVE_v h R
 MOVE_v i MOVE_v i R
 MOVE_v j MOVE_v j R
 MOVE_v k MOVE_v k R
 MOVE_v l MOVE_v l R
 MOVE_v m MOVE_v m R
-MOVE_v n MOVE_v n R
 MOVE_v o MOVE_v o R
-MOVE_v p MOVE_v p R
 MOVE_v q MOVE_v q R
-MOVE_v r MOVE_v r R
 MOVE_v s MOVE_v s R
 MOVE_v t MOVE_v t R
 MOVE_v u MOVE_v u R
@@ -964,36 +799,25 @@ MOVE_v v MOVE_v v R
 MOVE_v x MOVE_v x R
 MOVE_v y MOVE_v y R
 MOVE_v z MOVE_v z R
-MOVE_v ä MOVE_v ä R
-MOVE_v ö MOVE_v ö R
 MOVE_v õ MOVE_v õ R
 MOVE_v ü MOVE_v ü R
 MOVE_v - MOVE_v - R
-MOVE_v w MOVE_v w R
-MOVE_v [ MOVE_v [ R
-MOVE_v ] MOVE_v ] R
 MOVE_v | MOVE_v | R
 MOVE_v _ REWIND v L
 
 MOVE_x a MOVE_x a R
-MOVE_x b MOVE_x b R
 MOVE_x c MOVE_x c R
 MOVE_x d MOVE_x d R
-MOVE_x e MOVE_x e R
 MOVE_x f MOVE_x f R
 MOVE_x g MOVE_x g R
 MOVE_x h MOVE_x h R
 MOVE_x i MOVE_x i R
-MOVE_x j MOVE_x j R
 MOVE_x k MOVE_x k R
 MOVE_x l MOVE_x l R
 MOVE_x m MOVE_x m R
-MOVE_x n MOVE_x n R
 MOVE_x o MOVE_x o R
-MOVE_x p MOVE_x p R
 MOVE_x q MOVE_x q R
 MOVE_x r MOVE_x r R
-MOVE_x s MOVE_x s R
 MOVE_x t MOVE_x t R
 MOVE_x u MOVE_x u R
 MOVE_x v MOVE_x v R
@@ -1005,7 +829,6 @@ MOVE_x ö MOVE_x ö R
 MOVE_x õ MOVE_x õ R
 MOVE_x ü MOVE_x ü R
 MOVE_x - MOVE_x - R
-MOVE_x w MOVE_x w R
 MOVE_x [ MOVE_x [ R
 MOVE_x ] MOVE_x ] R
 MOVE_x | MOVE_x | R
@@ -1015,62 +838,44 @@ MOVE_y a MOVE_y a R
 MOVE_y b MOVE_y b R
 MOVE_y c MOVE_y c R
 MOVE_y d MOVE_y d R
-MOVE_y e MOVE_y e R
 MOVE_y f MOVE_y f R
-MOVE_y g MOVE_y g R
 MOVE_y h MOVE_y h R
 MOVE_y i MOVE_y i R
-MOVE_y j MOVE_y j R
-MOVE_y k MOVE_y k R
 MOVE_y l MOVE_y l R
-MOVE_y m MOVE_y m R
 MOVE_y n MOVE_y n R
 MOVE_y o MOVE_y o R
 MOVE_y p MOVE_y p R
-MOVE_y q MOVE_y q R
 MOVE_y r MOVE_y r R
 MOVE_y s MOVE_y s R
-MOVE_y t MOVE_y t R
 MOVE_y u MOVE_y u R
-MOVE_y v MOVE_y v R
-MOVE_y x MOVE_y x R
 MOVE_y y MOVE_y y R
 MOVE_y z MOVE_y z R
 MOVE_y ä MOVE_y ä R
 MOVE_y ö MOVE_y ö R
 MOVE_y õ MOVE_y õ R
-MOVE_y ü MOVE_y ü R
 MOVE_y - MOVE_y - R
 MOVE_y w MOVE_y w R
 MOVE_y [ MOVE_y [ R
 MOVE_y ] MOVE_y ] R
-MOVE_y | MOVE_y | R
 MOVE_y _ REWIND y L
 
 MOVE_z a MOVE_z a R
-MOVE_z b MOVE_z b R
 MOVE_z c MOVE_z c R
-MOVE_z d MOVE_z d R
 MOVE_z e MOVE_z e R
 MOVE_z f MOVE_z f R
 MOVE_z g MOVE_z g R
 MOVE_z h MOVE_z h R
-MOVE_z i MOVE_z i R
-MOVE_z j MOVE_z j R
 MOVE_z k MOVE_z k R
 MOVE_z l MOVE_z l R
 MOVE_z m MOVE_z m R
 MOVE_z n MOVE_z n R
 MOVE_z o MOVE_z o R
-MOVE_z p MOVE_z p R
 MOVE_z q MOVE_z q R
-MOVE_z r MOVE_z r R
 MOVE_z s MOVE_z s R
 MOVE_z t MOVE_z t R
 MOVE_z u MOVE_z u R
 MOVE_z v MOVE_z v R
 MOVE_z x MOVE_z x R
-MOVE_z y MOVE_z y R
 MOVE_z z MOVE_z z R
 MOVE_z ä MOVE_z ä R
 MOVE_z ö MOVE_z ö R
@@ -1081,14 +886,12 @@ MOVE_z w MOVE_z w R
 MOVE_z [ MOVE_z [ R
 MOVE_z ] MOVE_z ] R
 MOVE_z | MOVE_z | R
-MOVE_z _ REWIND z L
 
 MOVE_ä a MOVE_ä a R
 MOVE_ä b MOVE_ä b R
 MOVE_ä c MOVE_ä c R
 MOVE_ä d MOVE_ä d R
 MOVE_ä e MOVE_ä e R
-MOVE_ä f MOVE_ä f R
 MOVE_ä g MOVE_ä g R
 MOVE_ä h MOVE_ä h R
 MOVE_ä i MOVE_ä i R
@@ -1124,7 +927,6 @@ MOVE_ö b MOVE_ö b R
 MOVE_ö c MOVE_ö c R
 MOVE_ö d MOVE_ö d R
 MOVE_ö e MOVE_ö e R
-MOVE_ö f MOVE_ö f R
 MOVE_ö g MOVE_ö g R
 MOVE_ö h MOVE_ö h R
 MOVE_ö i MOVE_ö i R
@@ -1157,7 +959,6 @@ MOVE_ö _ REWIND ö L
 
 MOVE_õ a MOVE_õ a R
 MOVE_õ b MOVE_õ b R
-MOVE_õ c MOVE_õ c R
 MOVE_õ d MOVE_õ d R
 MOVE_õ e MOVE_õ e R
 MOVE_õ f MOVE_õ f R
@@ -1298,5 +1099,3 @@ REWIND | REWIND | L
 REWIND [ REWIND [ L
 REWIND ] REWIND ] L
 REWIND _ READ _ R
-
-
